@@ -1,0 +1,65 @@
+h1,
+p {
+  font-family: Lato;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  width: 3rem;
+  height: 100vh;
+  background: rgb(44, 44, 44);
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+}
+header img {
+  width: 80%;
+  margin: 8px 0px 8px 3px;
+}
+header img:hover {
+  background: rgba(0, 255, 191, 0.61);
+  border-radius: 6px;
+  margin: 8px 0px 8px 10px;
+}
+
+#photo-one {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+  background: blue;
+}
+
+#photo-two {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+  background: red;
+}
+
+#photo-three {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+  background: orange;
+}
+
+#photo-four {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+  background: green;
+}
+
+::-webkit-scrollbar {
+  width: 0.01px;
+  height: 0.01px;
+}
